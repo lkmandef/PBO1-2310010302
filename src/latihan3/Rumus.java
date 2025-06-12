@@ -15,4 +15,11 @@ public class Rumus {
     int sisi;
     int panjang;
     int lebar;
+
+    public int hitungLuasPersegi() {
+        return sisi * sisi;
+    }
+    public int hitungLuasPersegiPanjang() {
+        return panjang * lebar;
+    }
 }
