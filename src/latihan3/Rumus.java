@@ -5,21 +5,30 @@
  */
 package latihan3;
 
-
+/**
+ * nama : Lukmanul Hakim
+ * npm  : 2310010398
+ * kelas: 4C
+ */
 public class Rumus {
-    /*
-    *nama :Lukmanul Hakim
-    *npm : 2310010398
-    *kelas :4C
-    */
     int sisi;
     int panjang;
     int lebar;
+    int hasil;
 
-    public int hitungLuasPersegi() {
-        return sisi * sisi;
+    public Rumus() {
+        this.sisi = 0;
+        this.panjang = 0;
+        this.lebar = 0;
+        this.hasil = 0;
     }
-    public int hitungLuasPersegiPanjang() {
-        return panjang * lebar;
+    public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+    }
+    public void hitungLuasPersegiPanjang() {
+        hasil = panjang * lebar;
+    }
+    public int getHasil() {
+        return hasil;
     }
 }
